@@ -1,8 +1,8 @@
 spring:
   datasource:
-    driverClassName: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/spring_security
-    username: postgres
+    driverClassName: com.mysql.cj.jdbc.NonRegisteringDriver
+    url: jdbc:mysql://localhost:3306/spring_security?useSSL=false
+    username: root
     password: buputi2789
 
   jpa:
@@ -12,5 +12,5 @@ spring:
     properties:
       hibernate:
         format-sql: true
-    database: postgresql
-    database-platform: org.hibernate.dialect.PostgeSQLDialect
+    database: MYSQL
+    database-platform: org.hibernate.dialect.MySQL8Dialect
