@@ -6,8 +6,6 @@ spring:
     password: buputi2789
 
   jpa:
-    hibernate:
-      ddl-auto: create-drop
     show-sql: true
     properties:
       hibernate:
