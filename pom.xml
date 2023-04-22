@@ -73,6 +73,7 @@
 			<version>6.2.0.Final</version>
 			<type>pom</type>
 		</dependency>
+
 	</dependencies>
 
 	<build>
